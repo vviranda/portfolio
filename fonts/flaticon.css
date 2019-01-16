@@ -2,7 +2,6 @@
 	font-family: "Flaticon";
 	src: url("flaticon.eot");
 	src: url("flaticon.eot#iefix") format("embedded-opentype"),
-	src: url("./Flaticon.svg#Flaticon") format("svg"),
 	url("flaticon.woff") format("woff"),
 	url("flaticon.ttf") format("truetype"),
 	url("flaticon.svg") format("svg");
