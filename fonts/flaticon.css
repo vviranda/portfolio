@@ -14,9 +14,7 @@
         font-size: 20px;
 font-style: normal;
 margin-left: 20px;
-}
-.flaticon-headphones:before { content: "\f100"; }
-.flaticon-audio-bars:before {
+}.flaticon-audio-bars:before {
 	content: "\e000";
 }
 .flaticon-balance7:before {
