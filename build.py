@@ -43,7 +43,7 @@ def portfolio_item(fileName):
 
 def portfolio():
   projects = os.listdir('projects')
-
+  projects = sorted(projects)
   projectsList = ""
   for project in projects:
     tagHtml = portfolio_item(project)
