@@ -58,7 +58,13 @@ def portfolio():
   with open('build/portfolio.html', 'w') as file:
     file.write(filedata)
 
-  
+if __name__ == "__main__":
+  print('start')
 
-portfolio()
-build_index()
+  portfolio()
+  print('build: portfolio')
+
+  build_index()
+  print('build: index')
+
+  print('end')
