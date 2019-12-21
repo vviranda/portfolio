@@ -20,6 +20,8 @@ def build_index():
 def portfolio_item(fileName): 
   link = "projects/{}".format(fileName)
 
+  print("-> {}".format(link))
+
   with open(link, 'r') as file :
       filedata = file.read()
 
