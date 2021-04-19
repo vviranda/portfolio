@@ -580,7 +580,5 @@ var Jestem = {
 };
 
 $(document).ready(function (){
-  
 	Jestem.init();
-
 });
